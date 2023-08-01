@@ -1,0 +1,29 @@
+.new-expense
+{
+    margin: auto;
+    width: 55rem;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 18px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.heading
+{
+    text-align: center;
+    color: white;
+}
+
+.new-expense button
+{
+    margin-bottom: 23px;
+    background: linear-gradient(to right, #eb1919, #180d0d);
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    margin-right: 26px;
+    border: transparent;
+    box-shadow: 3px 3px 8px #3b3d44;
+    color: white;
+    cursor: pointer;
+}

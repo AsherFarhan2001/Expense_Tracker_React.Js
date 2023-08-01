@@ -1,0 +1,49 @@
+.new-expense-controls
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.new-expense-control
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new-expense-control label{
+    margin-bottom: 10px;
+}
+.new-expense-control input{
+    height: 29px;
+    width: 13rem;
+    border-radius: 8px;
+    padding: 2px 9px;
+
+}
+
+.new-expense-actions
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.new-expense-actions button
+{
+    background: linear-gradient(to right, #eb1919, #180d0d);
+    width: 150px;
+    height: 39px;
+    border-radius: 15px;
+    margin-right: 26px;
+    border: transparent;
+    box-shadow: 3px 3px 8px #3b3d44;
+    color: white;
+    cursor: pointer;
+}
+
+.new-expense-actions button:hover
+{
+    background: linear-gradient(to right, #ad3a3a, #180d0d);
+}

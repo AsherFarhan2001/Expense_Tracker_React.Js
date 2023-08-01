@@ -1,0 +1,23 @@
+.expenses
+{
+    border: 2px solid transparent;
+    width: 55rem;
+    background-color: rgb(48 42 42);
+    margin: auto;
+    backdrop-filter: blur(3px);
+}
+
+.expenses .heading
+{
+    color:red;
+}
+
+.active
+{
+    background-color: green;
+}
+
+.non-active
+{
+    background-color: cyan;
+}
